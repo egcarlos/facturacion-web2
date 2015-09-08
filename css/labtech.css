@@ -1,0 +1,28 @@
+@charset "utf-8";
+.carousel-inner > .item {
+	background-color: white;
+}
+.carousel-control:active {
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.carousel-control:hover {
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+.left.carousel-control, .right.carousel-control{
+	background-image:none;	
+}
+nav.navbar {
+	position:fixed;
+	top:0px;
+	right:0px;
+	left:0px;
+	z-index:1000;
+}
+div#home, div#about, div#services, div#us, div#svas, div#change {
+	padding-top:52px;
+}
+section#more-info {
+	padding-top:52px;
+}
