@@ -13,16 +13,13 @@
 .left.carousel-control, .right.carousel-control{
 	background-image:none;	
 }
-nav.navbar {
+/*nav.navbar {
 	position:fixed;
 	top:0px;
 	right:0px;
 	left:0px;
 	z-index:1000;
-}
+}*/
 div#home, div#about, div#services, div#us, div#svas, div#change {
-	padding-top:52px;
-}
-section#more-info {
 	padding-top:52px;
 }
